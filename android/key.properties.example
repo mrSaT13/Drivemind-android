@@ -1,0 +1,8 @@
+# Скопируй в android/key.properties и заполни СВОИМИ значениями.
+# key.properties НЕ коммитить (уже в .gitignore). keystore (*.jks) тоже не коммитить.
+# Создание ключа (один раз):
+#   keytool -genkey -v -keystore D:\keys\drivemind-release.jks -keyalg RSA -keysize 2048 -validity 10000 -alias drivemind
+storePassword=CHANGE_ME_store_password
+keyPassword=CHANGE_ME_key_password
+keyAlias=drivemind
+storeFile=D:\\keys\\drivemind-release.jks

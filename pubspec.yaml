@@ -1,0 +1,54 @@
+name: drivemind_mobile
+description: DriveMind PDD 2025 — мобильная версия. Темная премиум тема, градиенты, динамические цвета.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+  flutter: ">=3.16.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_riverpod: ^2.4.9
+  shared_preferences: ^2.2.2
+  flutter_secure_storage: ^9.0.0
+  path_provider: ^2.1.1
+  flutter_local_notifications: ^19.4.1
+  dynamic_color: ^1.6.6
+  google_fonts: ^6.1.0
+  flutter_tts: ^4.0.2
+  intl: ^0.19.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  cached_network_image: ^3.3.0
+  percent_indicator: ^4.2.3
+  confetti: ^0.8.0
+  image_picker: ^1.0.4
+  permission_handler: ^11.1.0
+  timezone: ^0.10.1
+  fl_chart: ^0.65.0
+  pdf: ^3.10.7
+  printing: ^5.11.1
+  share_plus: ^7.2.1
+  smooth_page_indicator: ^1.1.0
+  badges: ^3.1.2
+  flutter_svg: ^2.0.10
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.7
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/questions.json
+    - assets/data/questions_kids.json
+    - assets/data/signs.json
+    - assets/images/
+    - assets/fonts/Roboto-Regular.ttf

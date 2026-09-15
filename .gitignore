@@ -1,0 +1,40 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+# pubspec.lock НЕ игнорируем — нужен для воспроизводимой сборки
+# *.lock
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/.idea/
+*.apk
+*.aab
+*.keystore
+*.jks
+local.properties
+android/key.properties
+key.properties
+
+# iOS (если добавите)
+ios/Pods/
+ios/.generated/
+ios/Flutter/.last_build_id
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Temp
+dist/to_delete/
+__GITHUB_RELEASE/
+__TO_DELETE/
